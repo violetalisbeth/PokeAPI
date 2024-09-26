@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,6 +9,7 @@ body {
     margin: 0;
 }
 
+/* Contenedor principal */
 .container {
     text-align: center;
     background-color: white;
@@ -17,6 +19,7 @@ body {
     width: 300px;
 }
 
+/* Estilo para el campo de entrada y el botón */
 input {
     padding: 10px;
     width: 80%;
@@ -38,6 +41,7 @@ button:hover {
     background-color: #8e44ad;
 }
 
+/* Información del Pokémon */
 .pokemon-info {
     margin-top: 20px;
     display: none;
@@ -45,4 +49,41 @@ button:hover {
 
 img {
     width: 100px;
+}
+
+/* Lista de Pokémon buscados */
+h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+/* Colores alternativos para los elementos de la lista */
+ul li:nth-child(odd) {
+    background-color: #e1f5fe; /* Color para los elementos impares */
+}
+
+ul li:nth-child(even) {
+    background-color: #ffe0b2; /* Color para los elementos pares */
+}
+
+/* Hover para los elementos de la lista */
+ul li:hover {
+    background-color: #b2ebf2; /* Color al pasar el mouse */
 }
